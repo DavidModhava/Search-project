@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: opx;
+  }
+  
+  /* Create a column layout with Flexbox */
+  .row {
+    display: flex;
+  }
+  
+  /* Left column (menu) */
+  .left {
+    flex: 35%;
+    padding: 21px 0;
+    background-image: url(software\ img.jpg);
+  }
+  
+  .left h2 {
+    padding-left: 8px;
+  }
+  
+  /* Right column (page content) */
+  .right {
+    flex: 65%;
+    padding: 15px;
+  }
+  
+  /* Style the search box */
+  #mySearch {
+    width: 31%;
+    font-size: 18px;
+    padding: 11px;
+    border: 2px groove aqua;
+    /*! align-items: center; */
+    /*! text-align: center; */
+    margin: 33px 1px 96px 450px;
+    background-image: url(music\ 1.jpg);
+    color: white;
+    background-size: cover;
+  }
+  
+  /* Style the navigation menu inside the left column */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /*! background: pink; */
+    height: 178px;
+    background: linear-gradient(#63f0ff,#f1ffb0);
+    /*! opacity: 0.8; */
+    margin-bottom: 100px;
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: blueviolet;
+    /*! display: block; */
+    float: left;
+    border: 1px solid;
+    width: 20%;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  #myMenu li a:hover {
+    background: linear-gradient(45deg,rgb(4, 251, 255), yellow);
+    font-style:italic;
+  }
+  #ser{
+    text-align: center;
+  padding: 25px 6px;
+    background: #ff00ff7d;
+    color: currentColor;
+  }
